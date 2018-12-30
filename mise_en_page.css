@@ -1,0 +1,96 @@
+.acceuil{
+	margin: 0;
+	background-image: url("Images/Fond6.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.produits{
+	margin: 0;
+	background-image: url("Images/Fond5.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.mon_pannier{
+	margin: 0;
+	background-image: url("Images/Fond4.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.about{
+	margin: 0;
+	background-image: url("Images/Fond2.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	background-image: url("Images/Fond7.jpg");
+	background-size: 25% 100%;
+	background-repeat: no-repeat;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.titre{
+	font-size: 200%;
+	padding-top: 3%;
+	font-family: fantasy;
+	border-left: 1px solid white;
+	margin-left: 25%;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.ss_titre{
+	padding-bottom: 3%;
+	padding-top: 1%;
+	border-left: 1px solid white;
+	margin-left: 25%;
+	font-size: 125%;
+	font-family: fantasy;
+}
+
+nav{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: red;
+}
+
+/*ci-dessous le code provient du site https://www.w3schools.com/css/css_navbar.asp */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #111;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: dimgray;
+}
+/*fin du code de provenance https://www.w3schools.com/css/css_navbar.asp */
+
+main{
+	background-color: #F8F8FF;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 100%;
+}
